@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seeker</title>
+    <link rel="icon" href="../assets/images/logo-img.png" type="image/x-icon">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img src="../assets/images/logo.png" alt="title-img" class="img-responsive center-block">
+		</div>
+	</header>
+	<main class="grad30">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="../assets/images/mapa.png" alt="map" class="img-responsive center-block">
+					<br>
+				</div>
+				<div class="col-xs-12">
+					<form action="" class="form-inline">
+						<div class="form-group inline">
+							<a href="#" type="button" class="btn btn-default inline" id="icon">
+        						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+    						</a>					
+							<select name="" id="city" class="form-control">
+								<option value="">Miraflores</option>
+								<option value="">San Isidro</option>
+								<option value="">Surco</option>
+								<option value="">San Borja</option>		
+							</select>
+							
+						</div>
+					</form>
+				</div>			
+			</div>
+			<div class="row images">
+				<div class="col-xs-6">
+					<a class="" href="#image1" data-toggle="modal" role="button" data-target=".image1">
+						<img src="../assets/images/mirafloresfood1.jpg" alt="">
+					</a>	
+				</div>
+				<!--modal-->
+				<div class="modal fade image1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<div class="container-fluid center-block">
+									<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									<img src="../assets/images/miraflores1.png" alt="" class="center-block">
+									<br>
+									<h4 id="name"></h4>
+									<h4 id="address"></h4>
+									<h4 id="phone"></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<a class="" href="#image1" data-toggle="modal" role="button" data-target=".image1">
+						<img src="../assets/images/mirafloresfood2.jpg" alt="">
+					</a>	
+				</div>
+			</div>
+			<div class="row images">
+				<div class="col-xs-6">
+					<a class="" href="#image1" data-toggle="modal" role="button" data-target=".image1">
+						<img src="../assets/images/mirafloresfood3.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a class="" href="#image1" data-toggle="modal" role="button" data-target=".image1">
+						<img src="../assets/images/mirafloresfood4.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--Base de datos-->
+	<script src="../js/data.js"></script>
+	<!--jQuery-->
+	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/seeker.js"></script>
+</body>
+</html>

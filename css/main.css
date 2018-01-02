@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.color{
+	background:rgb(61, 77, 226);
+	height: 80.5vh;
+}
+
+.grad30{
+	background: linear-gradient(rgb(61, 77, 226)10%,rgb(10, 248, 208));
+}
+
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+
+/*styles for index(principal view)*/
+.header{
+	margin: 7vw auto;
+}
+
+.principal img{
+	margin: 10vw auto;
+}
+
+[alt="logo"]{
+	width: 45vw;
+	border-radius: 10vw;
+}
+
+[alt="imagen"]{
+	width: 50vw;
+	border-radius: 35vw;;
+}
+/*styles for seeker section*/
+
+[alt="map"]{
+	height: 50vw;
+	margin-top: 5vw;
+}
+
+[alt="title-img" ]{
+	width: 40vw;
+	margin: 4vw auto;
+}
+
+#city{
+	width: 50vw;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.images img{
+	margin: 1vw;
+	width: 40vw;
+	height: 35vw;
+}
+
+.modal img{
+	width: 40vw;
+	height: 35vw; 
+}
+
+
